@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-image: url('../images/Header-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  color: white;
+  font-weight: bold;
+  height: 324px;
+}
+
+.burger-bar {
+  display: none;
+}
+
+.header-wrapper {
+  max-width: 1088px;
+  width: 90%;
+  margin: auto;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  text-transform: uppercase;
+  width: 560px;
+  font-size: 12px;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.about-header {
+  margin-top: 95px;
+  font-size: 22px;
+}
+
+/* about section */
+
+#about-section {
+  padding: 90px 0;
+}
+
+.about-wrapper {
+  max-width: 1088px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-info {
+  padding: 10px;
+  width: 444px;
+}
+
+.small-about {
+  color: #5863f8;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.info-header {
+  font-size: 42px;
+}
+
+.image-row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-row-2 {
+  margin-top: 16px;
+}
+
+.about-wrapper p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.info-par {
+  margin-top: 14px;
+}
+
+#read-more {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border: none;
+  background-color: #5863f8;
+  color: white;
+  font-size: 14px;
+}
+
+/* about section */
+
+#details-section {
+  padding: 90px 0;
+  background-image: url('../images/Details-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.details-wrapper {
+  max-width: 1088px;
+  width: 90%;
+  margin: auto;
+}
+
+.white {
+  color: white;
+}
+
+.cards {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 24%;
+  padding: 27px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.hotel-container {
+  background-color: #5863f8;
+  border-radius: 50%;
+  padding: 13px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.card-header {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.card-desc {
+  font-size: 14px;
+}
